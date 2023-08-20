@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { ToDoTask } from "./config/axiosConfig";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./Components/Navbar";
 import OptionBar from "./Components/OptionBar";
 import SideCard from "./Components/SideCard";
