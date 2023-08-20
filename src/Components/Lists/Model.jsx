@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useRef, useState } from "react";
 import { Modal, Ripple, initTE } from "tw-elements";
 import { ToDoTask } from "../../config/axiosConfig";
 import Tasks from "../../Context/ToDo";
-import { toast } from "react-toastify";
 
 function Model({ state, title, setIsAdding }) {
   const { setTasks } = useContext(Tasks);
